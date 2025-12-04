@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 600px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    color: #222;
+    margin-bottom: 40px;
+}
+
+.description p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 50px;
+}
+
+.coming-soon p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer a {
+    color: #888;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+footer a:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+/* Privacy page styles */
+.privacy-page {
+    text-align: left;
+    max-width: 700px;
+}
+
+.privacy-page h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: #222;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.privacy-page h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.privacy-page p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.privacy-page ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.privacy-page li {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.privacy-page a {
+    color: #555;
+}
+
+.privacy-page a:hover {
+    color: #222;
+}
+
+.privacy-page .back-link {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.privacy-page .back-link a {
+    color: #888;
+    text-decoration: none;
+}
+
+.privacy-page .back-link a:hover {
+    color: #555;
+    text-decoration: underline;
+}
